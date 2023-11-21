@@ -1,0 +1,62 @@
+header {
+    background-color: aqua;
+    width: 94,5%;
+    height: 80px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    padding: 10px 40px;
+  }
+  nav li:hover {
+    background-color: brown;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  nav li a:hover {
+    color: white;
+  }
+  .logo {
+    float: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+  }
+  body {
+    font-family:"Quicksand"
+  }
+  @import url();
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .img-profile {
+    width: 300px;
+    border-radius: 15px 50px 30px;
+    margin-right: 40px;
+   
+  }
+  
+  main {
+    display: flex;
+    padding: 80px;
+    background-color: green;
+    
+    
+  }
+  footer {
+    background-color: darkslategray;
+    text-align: center;
+    font-weight: bold;
+    padding: 40px 0;
+  }
+  .content-profile {
+    color: white;
+  
+  }
+  
